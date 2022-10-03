@@ -1,0 +1,13 @@
+{
+  "name": "hello_moon",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/hello_moon",
+    "ssh": "git@github.com:uttahb/hello_moon.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": true
+}
